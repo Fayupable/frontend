@@ -1,0 +1,176 @@
+/* input{
+    display: block;
+    margin-bottom: 6px;
+} */
+/* p{
+    display: inline-block;
+    vertical-align: middle;
+    width: 190px;
+}
+
+button{
+    
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #eee;
+} */
+
+/* img{
+    display: block;
+    width: 200px;
+    margin-left: 173px;
+    margin-bottom: 10px;
+
+}
+input{
+    outline: none;
+    text-align: center;
+    border: 0.2px solid #ccc;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    width: 500px;
+    border-radius: 35px;
+    
+
+}
+
+input:hover{
+    transition: box-shadow 0.5s ease-in-out;
+    box-shadow: 0 0 5px 0 #ccc;
+} */
+
+/* input{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.first-name{
+    width: 200px;
+}
+.last-name{
+    width: 200px;
+    margin-left: 8px;
+}
+.email{
+    display: block;
+    width: 456px;
+}
+.sign-up-btn{
+    background-color: rgb(51, 149, 241);
+    border: none;
+    color: white;
+    border-radius: 30px;
+    width: 500px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+
+    
+}
+.sign-up-btn:hover{
+    transition: box-shadow 0.5s ease-in-out;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+
+}
+.sign-up-btn:active{
+    background-color: rgb(51, 149, 241);
+    box-shadow: none;
+    transform: translateY(4px);
+    outline: none;
+} */
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Vesper Libre', serif;
+}
+
+.title {
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+input {
+    display: block;
+    background-color: rgb(220, 220, 220);
+    border: none;
+    outline: none;
+    margin-bottom: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    width: 360px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+.destination-txtbx {
+    margin-bottom: 35px;
+}
+
+.request-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    margin-right: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.7s ease-in-out;
+
+}
+
+.request-btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: background-color 0.7s ease-in-out;
+
+}
+
+.schedule-btn{
+    background-color: rgb(220, 220, 220);
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    border-radius: 20px;
+
+}
+
+.schedule-btn:hover{
+    background-color: rgb(190, 190, 190);
+    transition: background-color 0.7s ease-in-out;
+    transition: box-shadow 0.5s ease-in-out;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}

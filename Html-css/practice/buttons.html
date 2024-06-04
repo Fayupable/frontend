@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Buttons Practice</title>
+  <link rel="stylesheet" href="styles/button.css">
+</head>
+
+<body>
+    <button class="subscribe-btn">
+        SUBSCRIBE
+    </button>
+    <button class="join-btn">
+        JOIN
+    </button>
+    <button class="tweet-btn">
+        Tweet
+    </button>
+</body>
+
+</html>
+
+
+<!-- <style>
+    .subscribe-btn {
+        background-color: rgb(212, 6, 6);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-right: 6px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        padding-left: 15px;
+        padding-right: 15px;
+        transition: opacity 0.19s;
+        vertical-align: top;
+    }
+
+    .subscribe-btn:hover {
+        opacity: 0.90;
+    }
+
+    .subscribe-btn:active {
+        opacity: 0.75;
+    }
+
+    .join-btn {
+        background-color: white;
+        border-color: rgb(86, 146, 249);
+        border-style: solid;
+        border-width: 1.5px;
+        color: rgb(86, 146, 249);
+        border-radius: 3px;
+        cursor: pointer;
+        transition: background-color 0.8s,
+            color 0.8s;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        vertical-align: top;
+    }
+
+    .join-btn:hover {
+        background-color: rgb(86, 146, 249);
+        color: white;
+    }
+
+    .tweet-btn {
+        background-color: rgb(29, 161, 242);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 75px;
+        border-radius: 18px;
+        cursor: pointer;
+        margin-left: 6px;
+        font-weight: bold;
+        font-size: 15px;
+        transition: box-shadow 0.6s ease;
+        vertical-align: top;
+    }
+
+    .tweet-btn:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+    }
+
+    /* .amazon-btn{
+        background-color: rgb(255,216,20);
+        border: none;
+        color: black;
+        height: 36px;
+        width: 160px;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-left: 6px;
+        margin-top: 10px;
+        
+    }
+    .amazon-btn:hover{
+        background-color: rgb(238, 202, 27);
+    }
+    .gh-btn{
+        background-color: rgb(46,164,79);
+        border: none;
+        color: white;
+        height: 35px;
+        width: 80px;
+        border-radius: 4px;
+        transition: box-shadow 0.6s ease;
+
+    }
+    .gh-btn:hover{
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    }
+
+    .bootstrap-btn{
+        background-color: rgb(106, 49, 240);
+        border: none;
+        color: white;
+        height: 35px;
+        width: 110px;
+        border-radius: 4px;
+        margin-left: 6px;
+        font: bold;
+        font-size: small;
+
+    }
+    .bootstrap-btn:hover{
+        background-color: rgb(106, 49, 240);
+        opacity: 0.90;
+    }
+    .bootstrap-btn-dowload{
+        background-color: rgb(255, 255, 255);
+        border-style: solid;
+        border-color: rgb(108, 117, 125);
+        border-width: 1px;
+        color: rgb(108, 117, 125);
+        height: 35px;
+        width: 110px;
+        border-radius: 4px;
+        margin-left: 6px;
+        font: bold;
+        font-size: small;
+        transition: background-color 0.8s,
+        color 0.8s;
+    }
+    .bootstrap-btn-dowload:hover{
+        background-color: rgb(108, 117, 125);
+        color: white;
+    }
+
+    .Linkedln-btn{
+        background-color: rgb(0, 119, 181);
+        border: none;
+        color: white;
+        height: 35px;
+        width: 160px;
+        border-radius: 15px;
+        margin-left: 6px;
+        font: bold;
+        font-size: small;
+    }
+    .Linkedln-btn:hover{
+        background-color: rgb(5, 97, 147);
+    }
+    .Linkedln-btn-save{
+        background-color: rgb(255, 255, 255);
+        border-style: solid;
+        border-color: rgb(0, 119, 181);
+        border-width: 1px;
+        color: rgb(0, 119, 181);
+        height: 35px;
+        width: 60px;
+        border-radius: 15px;
+        margin-left: 15px;
+        font: bold;
+        font-size: small;
+    }
+    .Linkedln-btn-save:hover{
+        background-color: rgb(211, 235, 248);
+        color: rgb(4, 107, 162);
+    }
+    .amazon-link{
+        color: rgb(0, 0, 238);
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 36px;
+    }
+    .amazon-link:hover {
+        text-decoration: underline;
+        transition: color 0.5s;
+        color: #C81010;
+    }
+    .title{
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 36px;
+    }
+    .price{
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 36px;
+        color: rgb(0,118,0);
+
+    }
+    .free-delivery{
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 36px;
+        color: rgb(18, 20, 18);
+    }
+    .add-to-cart-btn{
+        background-color: rgb(255,216,20);
+        border: none;
+        width: 100px;
+        height: 40px;
+        font-size: medium;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .add-to-cart-btn:hover{
+        background-color: rgb(242, 220, 109);
+    }
+    .add-to-cart-btn:active{
+        background-color: rgb(170, 144, 10);
+    }
+    .buy-now-btn{
+        background-color: rgb(255,164,30);
+        border: none;
+        width: 100px;
+        height: 40px;
+        font-size: medium;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+    .buy-now-btn:hover{
+        background-color: rgb(222, 145, 30);
+    }
+    .buy-now-btn:active{
+        background-color: rgb(209, 100, 23);
+    }
+
+    .back{
+        margin-right: 5px;
+        margin-left: 5px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        font-size: 10px;
+    }
+    .search-result{
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 10px;
+    }
+    .next-button{
+        margin-right: 5px;
+        margin-left: 5px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        font-size: 10px;
+    } */
+    /* .strech-btn{
+        background-color: green;
+        color: white;
+        border:none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        transition: padding-top 1.12s,
+        padding-bottom 1.12s,
+        padding-left 1.12s,
+        padding-right 1.12s;
+    }
+    .strech-btn:hover{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    } */
+    /* .shadow-btn{
+        background-color: rgb(0, 94, 255);
+        color: white;
+        border:none;
+        border-radius: 6px;
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        cursor: pointer;
+        transition: box-shadow 0.6s ease;
+    }
+    .shadow-btn:hover{
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    }
+    .shadow-btn:active{
+        margin-top: 3px;
+        margin-left: 3px;
+        box-shadow:none;
+    } */
+    /* .number-btn{
+        background-color: green;
+        color: white;
+        border:none;
+        cursor: pointer;
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left:8px;
+        margin-right: 8px;
+        border-radius: 6px;
+        transition: padding 0.5s,
+        margin 0.5s;
+    }
+    .number-btn:hover{
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+    } */
+</style> -->
+
+
+<!-- <button class="amazon-btn">
+    Add To Cart
+</button>
+<button class="gh-btn">
+    Sign up
+</button>
+<button class="bootstrap-btn">
+    Get started
+</button>
+<button class="bootstrap-btn-dowload">
+    Download
+</button>
+<button class="Linkedln-btn">
+    Apply on company site
+</button>
+<button class="Linkedln-btn-save">
+    save
+</button> -->
+
+
+<!-- <a class="amazon-link" href=" https://amazon.com" target="_blank">
+    Go to the amazon's website
+</a>
+<p class="title">
+Nike black Running shoes
+</p>
+<p class="price">
+    $100-out of the stock
+</p>
+<p class="free-delivery">
+    Free delivery
+</p>
+
+<button class="add-to-cart-btn">
+    Add to cart
+</button>
+<button class="buy-now-btn">
+    Buy now
+</button> -->
+<!-- 
+<button class="back">Back</button>
+<a class="search-result" href="https://google.com">1</a>
+<a class="search-result" href="https://google.com">2</a>
+<a class="search-result" href="https://google.com">3</a>
+<a class="search-result" href="https://google.com">4</a>
+<a class="search-result" href="https://google.com">5</a>
+<button class="next-button">Next</button> -->
+
+<!-- <button class = "strech-btn">
+    Strech
+</button> -->
+<!-- 
+<button class="shadow-btn">
+    Shadow
+</button> -->
+
+<!-- <button class=" number-btn">1</button>
+<button class=" number-btn">3</button>
+<button class=" number-btn">2</button> -->

@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.emoji-h2 {
+    font-size: 2rem;
+    color: aliceblue;
+
+}
+
+.container {
+    text-align: center;
+
+}
+
+.btn {
+    font-size: 4rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 18px;
+    padding: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    filter: grayscale();
+    transition: filter 0.3s ease-in-out;
+
+
+}
+
+.btn:hover {
+    filter: grayscale(0);
+}
+.emoji-name{
+    font-weight: 600;
+    color: darkblue;
+    
+}

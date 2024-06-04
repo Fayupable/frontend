@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background: linear-gradient(45deg, #1CB5E0 0%, #000851 100%);
+    min-height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+.heading {
+    color: palevioletred;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 35px;
+
+}
+
+.info-text {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 40px;
+    justify-content: center;
+    padding: 50px;
+
+}
+.note{
+    padding: 18px;
+    border-radius: 15px;
+    resize: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+    font-size: 18px;
+    height: 200px;
+    color: azure;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+
+}
+.note::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 30%;
+}
+.note:hover,.note:focus{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+
+}
+.btn{
+    height: 200px;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 70px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+
+}
+.btn:hover{
+    background: rgba(255, 255, 255, 0.2);
+    color: rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+}

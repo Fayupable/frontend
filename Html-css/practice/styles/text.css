@@ -1,0 +1,260 @@
+ p {
+     font-family: Roboto;
+     margin-top: 0;
+     margin-bottom: 0;
+ }
+
+ .video-title {
+     font-weight: bold;
+     font-size: 18px;
+     width: 300px;
+     line-height: 23px;
+     margin-bottom: 5px;
+
+ }
+
+ .video-stats {
+     font-size: 14px;
+     color: rgb(96, 96, 96);
+     margin-bottom: 15px;
+
+ }
+
+ .video-author {
+     font-size: 14px;
+     color: rgb(96, 96, 96);
+     margin-bottom: 20px;
+ }
+
+ .video-description {
+     font-size: 14px;
+     color: rgb(96, 96, 96);
+     width: 280px;
+     line-height: 20px;
+     margin-bottom: 100px;
+ }
+
+ .apple-text {
+     margin-bottom: 50px;
+     font-size: 14px;
+     background-color: rgb(227, 65, 64);
+     color: white;
+     text-align: center;
+     padding-bottom: 15px;
+     padding-top: 15px;
+ }
+
+ .span-text {
+     cursor: pointer;
+     margin-left: 10px;
+ }
+
+ .span-text:hover {
+     text-decoration: underline;
+ }
+
+ .tahoma {
+     font-family: Tahoma;
+     font-size: 40px;
+     font-weight: bold;
+ }
+
+ .arial {
+     font-family: Arial;
+     font-size: 40px;
+     font-weight: bold;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+
+ .arial-sale {
+     font-family: Arial;
+     color: red;
+     font-size: 28px;
+     font-style: italic;
+     margin-top: 0;
+
+ }
+
+ /* p{
+        font-family: Verdana;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    } */
+ /* .html{
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 3px;
+    }
+    .html-subtitle{
+        color: rgb(100,100,100);
+        margin-bottom: 20px;
+    }
+    .html-content{
+        width: 300px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .get-started{
+        font-family: Verdana;
+        background-color: green;
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: box-shadow 0.3s ease;
+    }
+    .get-started:hover{
+        background-color: rgb(0, 100, 0);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+
+    }
+    .get-started:active{
+        background-color: rgb(0, 50, 0);
+        box-shadow: none;
+    } */
+ /* p{
+        font-family: Arial;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .d{ 
+        font-size:30px;
+        font-weight: bold;
+        margin-top:25px;
+        margin-bottom: 20px;
+    }
+    .d-subtitle{
+        margin-bottom: 25px;
+    }
+    .d-link{
+        color: rgb(60,108,199);  
+        cursor: pointer;      
+    }
+    .d-link:hover{
+        text-decoration: underline;
+        text-decoration-color: rgb(109, 22, 216);
+    } */
+ /* p{
+        font-family: Arial;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .apple-new{
+        margin-bottom: 10px;
+        color: rgb(245,99,0);
+    }
+    .apple-product{
+        font-size: 40px;
+        font-weight: normal;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+    .apple-title{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .apple-price{
+        font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    }
+    .apple-buy{
+        cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    min-width: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
+    
+    }
+    .apple-learn-more{
+        font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    }
+    .apple-learn-more:hover{
+        text-decoration: underline;
+        color: blue;
+        text-decoration-color: blue ;
+    } */
+ /* p{
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .a-price{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .currency{
+        font-size: 20px;
+        color: rgb(100,100,100);
+    }
+    .a-change{
+        color: rgb(24,128,56);
+        margin-bottom: 10px;
+    }
+    .a-after-hours{
+        color: rgb(100,100,100);
+    }
+    .a-after-hours-change{
+        color: rgb(235,39,39);
+    } */
+ /* p{
+        font-family: Arial;
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 0;    
+    }
+    .tweet-header{
+        margin-bottom: 6px;
+    }
+    .tweet-author{
+        font-weight: bold;
+        
+    }
+    .tweet-info{
+        color: rgb(100,100,100);
+    }
+    .tweet{
+        width: 550px;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+    .twitter-handle{
+        color: rgb(29,155,240);
+        cursor: pointer;
+    }
+    .twitter-handle:hover{
+        text-decoration: underline;
+        text-decoration-color: rgb(29,155,240);
+
+    }
+    .twitter-handle:active{
+        color: rgb(14, 125, 199);
+    } */
